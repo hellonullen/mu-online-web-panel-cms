@@ -11,8 +11,8 @@
 
 <br/>
 
-**A premium, high-performance, mobile-responsive MU Online Web Panel and Content Management System built for modern servers.**  
-*Includes a turnkey installation and server integration service for any MU Online server files.*
+**A premium, enterprise-grade, mobile-first MU Online Web Panel and Content Management System built for high-traffic servers.**  
+*Includes a full turnkey installation, database migration, and emulator integration service for any MU Online server files.*
 
 [🌐 Live Demo (Canlı Demo)](https://veyloramu.com) • [📧 Purchase / Contact (İletişim)](#-commercial-inquiries--contact-ileti%C5%9Fim) • [🇹🇷 Türkçe Açıklama](#-t%C3%BCrk%C3%A7e-tan%C4%B1t%C4%B1m--detaylar)
 
@@ -35,20 +35,23 @@
 ### 💎 What is this?
 This is a **commercial-grade, full-featured MU Online Web Engine & CMS** engineered with modern web standards (PHP 8.2+ PDO, Tailwind CSS, Vanilla JS, and asynchronous REST APIs). It replaces outdated 2000s-era MU panels with an ultra-fast, mobile-first, and SEO-optimized digital portal.
 
-> **Note:** This repository is a product showcase and architectural overview. The core backend source code is closed-source. Full licenses, turnkey deployment, and customization are provided upon purchase.
+> **Note:** This repository is a product showcase and architectural overview. The core backend source code is closed-source. Full commercial licenses, turnkey deployment, and customization are provided upon purchase.
 
 ---
 
-### 🚀 Key Features
+### 🚀 Complete System Features Matrix
 
-| Category | Highlights & Capabilities |
+| Module | Features & Capabilities |
 | :--- | :--- |
-| **🎨 Modern UI/UX** | Dark fantasy theme built on **Tailwind CSS 3.4**, micro-interactions, responsive mobile drawer menu, zero-dependency lightweight frontend. |
-| **🌐 Dynamic Multi-Lingual SEO** | Full 4-language support (**English, Turkish, Spanish, Portuguese**) with automatic localized URL routing (`/news/slug`, `/blog/slug`), dynamic hreflangs, Google JSON-LD schema, and automated sitemap generator. |
-| **🗡️ Real-Time Drops & Spot Engine** | Searchable monster drop directory, coordinates, item category filters, drop probability percentages, and boss spawn timetables. |
-| **🏆 Competitive Ranking Leagues** | Reset, Master Reset, Level, Guild, and PvP Killer leaderboards with automated weekly reward leagues and reset cap adaptations. |
-| **🛍️ Integrated Web Shop & Cash Shop** | Multi-currency (WCoins, CashPoints, Goblin Points, Zen), automated in-game delivery, stock controls, and VIP tier integrations. |
-| **🛡️ Enterprise Security** | 100% Prepared PDO statements (SQL Injection immune), strict XSS filtering, rate-limiting, CSRF tokens, and configurable password hashing (MD5, SHA256, BCrypt, Argon2/PBKDF2). |
+| **🎨 Modern UI/UX** | Dark fantasy luxury aesthetic built on **Tailwind CSS 3.4**, micro-interactions, responsive mobile drawer menu, zero heavy external dependencies, sub-500ms load times. |
+| **🌐 Dynamic Multi-Lingual SEO** | Full 4-language support (**English, Turkish, Spanish, Portuguese**) with automatic localized URL routing (`/news/slug`, `/blog/slug`), dynamic hreflangs, Google JSON-LD schema, automated sitemap generator, and robots.txt. |
+| **🗡️ Real-Time Drops & Spot Engine** | Searchable monster drop directory, exact spot coordinates (X, Y), item category filters, drop probability percentages, and boss spawn schedules (Kundun, Medusa, Selupan, Nightmare, Maya, Balgass, Erohim). |
+| **⚖️ Class Balance & PvP Lab** | Dedicated laboratory page for all 7 legendary classes (DK, DW, Elf, MG, DL, Summoner, RF) with real damage formulas, defense calculations, attack speed thresholds, and matchup balance analysis. |
+| **📖 In-Game MuHelper & Guides** | Complete player guide covering MuHelper configuration (auto-buffs, skill rotations, item collection filters) and all in-game server commands (`/post`, `/add`, `/reset`, `/masterreset`, `/store`, `/offstore`, `/pack`). |
+| **🏆 Competitive Ranking Leagues** | Reset, Master Reset, Level, Guild, and PvP Killer leaderboards with automated weekly reward leagues, reset cap adaptations, and automated prize distribution. |
+| **🛍️ Integrated Web Shop & Cash Shop** | Multi-currency (WCoins, CashPoints, Goblin Points, Zen), automated instant in-game delivery without client restart/re-login, stock controls, and VIP tier integrations. |
+| **👤 User Account Management** | Fixed full-screen modal authentication, account registration with strength meter, self-service character tools (Unstick character, Clear PK, Reset Stats), and secure password recovery. |
+| **🛡️ Enterprise Security** | 100% Prepared PDO statements (SQL Injection immune), strict XSS filtering, rate-limiting (Anti-Brute-Force), CSRF tokens, and configurable password hashing (MD5, SHA256, BCrypt, Argon2/PBKDF2). |
 
 ---
 
@@ -70,7 +73,7 @@ Our universal PDO database abstraction layer allows seamless connectivity to any
 
 When you purchase the panel, **you do not need to deal with complicated installation manuals or SQL queries**. We handle everything for you:
 
-1. **VPS / VDS Deployment:** Full installation on Linux (Ubuntu/Debian/AlmaLinux) or Windows Server (Nginx, Apache, or Docker).
+1. **VPS / VDS Deployment:** Full installation on Linux (Ubuntu/Debian/AlmaLinux) or Windows Server (Nginx, Apache, IIS, or Docker).
 2. **Database Mapping:** Customized PDO queries mapped precisely to your emulator's database structure and custom item tables.
 3. **Custom Branding:** Integration of your server logo, domain, custom color schemes, social media links, and download mirrors.
 4. **Automated Cron Jobs:** Setup of automated ranking resets, weekly rewards, database backups, and drop table synchronizations.
@@ -92,8 +95,12 @@ When you purchase the panel, **you do not need to deal with complicated installa
 #### 📰 Dynamic Multi-Lingual SEO Blog & Announcements
 [![News Preview](docs/assets/news_blog_preview.png)](https://veyloramu.com/news.php)
 
-#### 📱 100% Mobile Responsive Drawer & Navigation
-<img src="docs/assets/mobile_preview.png" width="380" alt="Mobile Preview" />
+#### 📱 Authentic Mobile Responsive Views (Lightshot Captures)
+<p align="center">
+  <img src="docs/assets/mobil1.png" width="350" alt="Mobile View 1 - Portal & Navigation" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/assets/mobil2.png" width="350" alt="Mobile View 2 - Mobile Navigation Drawer" />
+</p>
 
 </div>
 
@@ -104,20 +111,56 @@ When you purchase the panel, **you do not need to deal with complicated installa
 ## 🇹🇷 Türkçe Tanıtım & Detaylar
 
 ### 💎 Bu Proje Nedir?
-Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma klasik MU web panellerini tarihe gömen; **PHP 8.2+ PDO, Tailwind CSS, çok dilli dinamik SEO altyapısı ve modern asenkron API mimarisiyle** sıfırdan geliştirilmiş **ticari MU Online Web Paneli & CMS sistemidir.**
+Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma klasik MU web panellerini tarihe gömen; **PHP 8.2+ PDO, Tailwind CSS, 4 dilli dinamik SEO altyapısı ve modern asenkron API mimarisiyle** sıfırdan geliştirilmiş **kurumsal MU Online Web Paneli & CMS sistemidir.**
 
 > **Önemli Not:** Bu repository tanıtım ve vitrin amaçlıdır. Çekirdek kaynak kodları kapalı kaynaklı (closed-source) satılmaktadır. Satın alım durumunda tüm files kurulumu ve entegrasyonu tarafımızca anahtar teslim sağlanmaktadır.
 
 ---
 
-### 🚀 Öne Çıkan Özellikler
+### 🚀 Sistem Özelliklerinin Tam Listesi (Teyit Edilmiş Özellikler)
 
-* **Mobil Uyumlu & Ultra Hızlı Arayüz:** TailwindCSS tabanlı karanlık RPG teması, mobil cihazlarda akıcı kayar çekmece menü, harici ağır kütüphaneler barındırmayan hafif mimari.
-* **4 Dilli Dinamik SEO & Blog Sistemi:** Türkçe, İngilizce, İspanyolca ve Portekizce dillerinde otomatik slug/URL yönlendirmesi (`/news/slug`, `/blog/slug`), hreflang etiketleri, Google Schema (JSON-LD) ve otomatik dinamik Sitemap.
-* **Canlı Monster Drop & Spot Kılavuzu:** Oyuncuların harita, canavar, item ve boss bazlı anlık arama yapabildiği oran ve koordinat gösterimli düşen eşya veritabanı.
-* **Haftalık / Aylık Sıralama Yarışları:** Seviye, Reset, Grand Reset, Guild ve PvP skorlarına göre geri sayımlı lig ödül sistemi.
-* **Entegre Web Market / Cash Shop:** WCoin, CashPoints, Goblin Points ve Zen desteği; oyundan çıkış yapmayı gerektirmeyen anında envanter/kasa teslimatı.
-* **Yüksek Güvenlik Standartları:** %100 Prepared PDO sorguları (SQL Injection imkansız), XSS koruması, Rate-Limiting (Brute-force kalkanı) ve modern şifreleme algoritmaları (MD5, SHA256, BCrypt, PBKDF2).
+1. **Mobil Uyumlu & Ultra Hızlı Arayüz (TailwindCSS 3.4):**
+   - Karanlık RPG konseptli modern arayüz (`#0b0b12` lüks arka plan, altın/kehribar vurgular).
+   - Akıcı mobil kayar çekmece (drawer) menü; dokunmatik ekranlara tam uyumlu.
+   - 500ms altında açılış hızı; gereksiz ağır kütüphanelerden arındırılmış saf performans.
+
+2. **4 Dilli Dinamik SEO & Blog Sistemi (TR, EN, ES, PT):**
+   - URL içinde otomatik yerelleştirilmiş slug yapısı (`/news/seo-slug` ve `/blog/seo-slug`).
+   - Eski UUID/ID linklerinden yeni SEO linklerine otomatik 301 yönlendirmesi.
+   - Dinamik hreflang etiketleri, Google Schema (JSON-LD) ve otomatik `sitemap.xml` üreticisi.
+   - Blog, Etkinlik, Duyuru ve Güncelleme kategorilendirmesi.
+
+3. **Canlı Monster Drop & Spot Kılavuzu (`drops.php`):**
+   - Canavar adı, düşen eşya, harita veya boss adına göre anlık filtreleme/arama motoru.
+   - Eşya düşme olasılığı yüzdeleri, tam spot koordinatları (X, Y) ve harita seviye gereksinimleri.
+   - Boss saatleri ve etkinlik drop tabloları (Kundun, Medusa, Selupan, Nightmare, Maya, Balgass, Erohim).
+
+4. **Sınıf Dengeleme & PvP Laboratuvarı (`balance.php`):**
+   - 7 Efsanevi Karakter (DK, DW, Elf, MG, DL, Summoner, RF) için özel yüksek çözünürlüklü grafikler.
+   - Gerçek hasar, savunma ve saldırı hızı (attack speed) formülleri ve sınıf eşleşme analizleri.
+
+5. **Oyun İçi MuHelper & Komutlar Rehberi (`commands.php`):**
+   - MuHelper oto-av ayarları (skill zamanlaması, oto-buff, eşya toplama listesi).
+   - Sunucu komutları rehberi (`/post`, `/add`, `/reset`, `/masterreset`, `/store`, `/offstore`, `/pack` vb.).
+
+6. **Haftalık Sıralama Ligi & Şöhretler Salonu (`rankings.php`):**
+   - Seviye, Reset, Grand Reset, Lonca (Guild) ve PvP Katil (PK) sıralamaları.
+   - Geri sayımlı haftalık yarış ligi ve otomatik ödül havuzu dağıtımı.
+   - Maksimum reset sınırına (Cap) ulaşan sunucular için alternatif lig modları (Master EXP, Boss Puanı vb.).
+
+7. **Entegre Web Market / Cash Shop (`market.php` / `shop.php`):**
+   - WCoin, CashPoints, Goblin Points ve Zen desteği.
+   - Oyundan çıkış yapmayı gerektirmeyen anında çanta/depo eşya teslimatı.
+   - VIP üyelik sistemi (Süre takipli Bronz, Gümüş, Altın, Platin paketler).
+
+8. **Kullanıcı Hesabı & Karakter Kurtarma Portalı:**
+   - Şık giriş/kayıt modalı ve profil sayfası.
+   - Karakter kurtarma (Haritada sıkışan karakteri şehre ışınlama), stat sıfırlama, PK temizleme.
+   - MD5, SHA256, BCrypt ve PBKDF2/Argon2 şifreleme uyumluluğu.
+
+9. **Üst Düzey Güvenlik Standartları:**
+   - %100 Prepared PDO sorguları (SQL Injection tamamen imkansız).
+   - XSS sanitizasyonu, CSRF token koruması, Brute-force ve Rate-limiting kalkanı.
 
 ---
 
@@ -125,7 +168,7 @@ Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma
 
 Panelimizi satın aldığınızda teknik detaylarla, SQL tablolarıyla veya sunucu ayarlarıyla **asla uğraşmazsınız**. 
 
-1. **Sunucuya Kurulum:** VDS/VPS sunucunuza (Linux, Windows Server, Nginx, Apache veya Docker) kurulumu biz yapıyoruz.
+1. **Sunucuya Kurulum:** VDS/VPS sunucunuza (Linux Nginx/Apache, Windows Server veya Docker) kurulumu biz yapıyoruz.
 2. **Files Entegrasyonu:** Kullandığınız MU filesına (OpenMU, Louis, MuEmu, IGCN vb.) özel veritabanı eşleştirmelerini ve özel item/drop tablolarını eksiksiz bağlıyoruz.
 3. **Özel Tasarım Uyarlaması:** Sunucunuzun logosu, renk tonları, indirme linkleri ve sosyal medya butonları yerleştirilir.
 4. **Otomasyon & Cronjob:** Otomatik lig ödülleri, sitemap yenileme ve veritabanı optimize cronjob'ları ayarlanır.
