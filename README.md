@@ -14,7 +14,7 @@
 **A premium, enterprise-grade, mobile-first MU Online Web Panel and Content Management System built for high-traffic servers.**  
 *Includes a full turnkey installation, database migration, and emulator integration service for any MU Online server files.*
 
-[🌐 Live Demo (Canlı Demo)](https://veyloramu.com) • [📧 Purchase / Contact (İletişim)](#-commercial-inquiries--contact-ileti%C5%9Fim) • [🇹🇷 Türkçe Açıklama](#-t%C3%BCrk%C3%A7e-tan%C4%B1t%C4%B1m--detaylar)
+[🌐 Live Demo (Canlı Demo)](https://veyloramu.com) • [❓ FAQ (Sık Sorulan Sorular)](#-frequently-asked-questions-faq) • [📧 Purchase / Contact (İletişim)](#-commercial-inquiries--contact-ileti%C5%9Fim) • [🇹🇷 Türkçe Açıklama](#-t%C3%BCrk%C3%A7e-tan%C4%B1t%C4%B1m--detaylar)
 
 <br/>
 
@@ -35,7 +35,7 @@
 ### 💎 What is this?
 This is a **commercial-grade, full-featured MU Online Web Engine & CMS** engineered with modern web standards (PHP 8.2+ PDO, Tailwind CSS, Vanilla JS, and asynchronous REST APIs). It replaces outdated 2000s-era MU panels with an ultra-fast, mobile-first, and SEO-optimized digital portal.
 
-> **Note:** This repository is a product showcase and architectural overview. The core backend source code is closed-source. Full commercial licenses, turnkey deployment, and customization are provided upon purchase.
+> **Note:** This repository is a product showcase and architectural overview. Full commercial licenses, turnkey deployment, and customization are provided upon purchase.
 
 ---
 
@@ -97,12 +97,46 @@ When you purchase the panel, **you do not need to deal with complicated installa
 
 #### 📱 Authentic Mobile Responsive Views (Lightshot Captures)
 <p align="center">
-  <img src="docs/assets/mobil1.png" width="350" alt="Mobile View 1 - Portal & Navigation" />
+  <img src="docs/assets/mobil1.png" width="340" alt="Mobile View 1 - Portal & Navigation" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/assets/mobil2.png" width="350" alt="Mobile View 2 - Mobile Navigation Drawer" />
+  <img src="docs/assets/mobil2.png" width="340" alt="Mobile View 2 - Mobile Navigation Drawer" />
 </p>
 
 </div>
+
+---
+
+### ❓ Frequently Asked Questions (FAQ)
+
+<details>
+<summary><b>1. Does this web panel truly work with OpenMU Season 6 Episode 3?</b></summary>
+<br/>
+<b>Yes, absolutely 100%.</b> The web panel was specifically engineered and thoroughly tested on a live, production OpenMU Season 6 Episode 3 server (<a href="https://veyloramu.com">https://veyloramu.com</a>). It natively connects with OpenMU's ConnectServer, GameServer, ChatServer, and PostgreSQL database with zero compatibility layers.
+</details>
+
+<details>
+<summary><b>2. Can WebShop items be safely delivered while the character is online?</b></summary>
+<br/>
+<b>Yes.</b> The WebShop delivery mechanism utilizes atomic, ACID-compliant PDO transactions. Items, currency, or VIP status are injected directly into the player's account vault/inventory safely in real time without requiring the player to log out (re-log) and without any risk of duplication or item loss.
+</details>
+
+<details>
+<summary><b>3. Are the PostgreSQL queries compliant with OpenMU's active schema?</b></summary>
+<br/>
+<b>Yes, 1:1 compliant.</b> OpenMU's EF Core PostgreSQL schema (including Account, Character, StatAttribute, ItemStorage, Guild, and binary/JSON configurations) has been analyzed down to the byte. User registration, password hashing (PBKDF2/Argon2/BCrypt), stats allocation, and reset queries align perfectly with OpenMU conventions.
+</details>
+
+<details>
+<summary><b>4. Is the license per single server and perpetual (lifetime)? Are updates included?</b></summary>
+<br/>
+<b>Yes.</b> The license is issued for a <b>single server IP address</b> (or bound domain) with <b>perpetual lifetime access</b> (no recurring monthly fees). All bug fixes, security patches, and system optimization updates within the version line are included.
+</details>
+
+<details>
+<summary><b>5. Is the backend source code delivered, or is it an obfuscated/executable closed binary?</b></summary>
+<br/>
+<b>The backend PHP source code is delivered to the customer.</b> However, the software includes a lightweight licensing verification module locked to your agreed server IP or domain name. You have complete freedom to host, inspect, and manage the code on your server.
+</details>
 
 ---
 
@@ -113,7 +147,7 @@ When you purchase the panel, **you do not need to deal with complicated installa
 ### 💎 Bu Proje Nedir?
 Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma klasik MU web panellerini tarihe gömen; **PHP 8.2+ PDO, Tailwind CSS, 4 dilli dinamik SEO altyapısı ve modern asenkron API mimarisiyle** sıfırdan geliştirilmiş **kurumsal MU Online Web Paneli & CMS sistemidir.**
 
-> **Önemli Not:** Bu repository tanıtım ve vitrin amaçlıdır. Çekirdek kaynak kodları kapalı kaynaklı (closed-source) satılmaktadır. Satın alım durumunda tüm files kurulumu ve entegrasyonu tarafımızca anahtar teslim sağlanmaktadır.
+> **Önemli Not:** Bu repository tanıtım ve vitrin amaçlıdır. Satın alım durumunda tüm files kurulumu, veritabanı eşleştirmesi ve entegrasyonu tarafımızca anahtar teslim sağlanmaktadır.
 
 ---
 
@@ -164,6 +198,40 @@ Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma
 
 ---
 
+### ❓ Sıkça Sorulan Sorular (SSS)
+
+<details>
+<summary><b>1. OpenMU Season 6 Episode 3 ile gerçekten çalışıyor mu?</b></summary>
+<br/>
+<b>Evet, %100 yerel ve tam uyumlu olarak çalışıyor.</b> Panelimiz bizzat aktif ve canlı bir OpenMU Season 6 Episode 3 sunucusunda (<a href="https://veyloramu.com">https://veyloramu.com</a>) test edilmiş olup; ConnectServer, GameServer, ChatServer ve PostgreSQL veritabanı ile kusursuz entegrasyona sahiptir.
+</details>
+
+<details>
+<summary><b>2. WebShop ürün teslimatı, karakter çevrimiçi olsa bile güvenli şekilde yapılabiliyor mu?</b></summary>
+<br/>
+<b>Evet.</b> WebShop sistemi, karakter oyundayken (çevrimiçi) dahi güvenli ACID işlemlerine uygun PDO transaction yapısı kullanır. Karakterin oyundan çıkış yapmasına (re-log) gerek kalmadan eşyalar/krediler doğrudan kasaya veya envantere anında ve dupe/kayıp riski olmadan güvenle teslim edilir.
+</details>
+
+<details>
+<summary><b>3. PostgreSQL sorguları ve hesap işlemleri OpenMU'nun mevcut şemasına uygun mu?</b></summary>
+<br/>
+<b>Evet, birebir uygundur.</b> OpenMU'nun EF Core / PostgreSQL veritabanı şeması (Account, Character, StatAttribute, Guild, ItemStorage ve binary/JSON yapıları) tam olarak analiz edilmiş olup; hesap kaydı, şifreleme algoritmaları (PBKDF2 / Argon2 / BCrypt), karakter statları ve reset tabloları OpenMU standartlarına tam uyumludur.
+</details>
+
+<details>
+<summary><b>4. Lisans tek sunucu için mi, süresiz mi? Güncellemeler dahil mi?</b></summary>
+<br/>
+<b>Lisans tek bir sunucu IP adresi (veya bağlı domain) için tanımlanır ve süresizdir (ömür boyu kullanım).</b> Satın alınan sürüm serisi boyunca yayınlanan hata düzeltmeleri ve sistem optimizasyonu güncellemeleri fiyata dahildir.
+</details>
+
+<details>
+<summary><b>5. Backend kaynak kodu teslim ediliyor mu, yoksa yalnızca çalıştırılabilir kapalı sistem mi?</b></summary>
+<br/>
+<b>Evet, backend PHP kaynak kodları teslim edilmektedir.</b> Ancak sistem, satın alma sırasında anlaşılan sunucu IP adresine veya proje domainine lisanslı (domain/IP korumalı) olarak teslim edilir. Alıcı kendi sunucusunda kodları rahatça barındırabilir ve yönetebilir.
+</details>
+
+---
+
 ### 🛠️ Anahtar Teslim Kurulum & Entegrasyon Hizmeti
 
 Panelimizi satın aldığınızda teknik detaylarla, SQL tablolarıyla veya sunucu ayarlarıyla **asla uğraşmazsınız**. 
@@ -191,6 +259,6 @@ Paneli satın almak, demo detaylarını görüşmek veya sunucunuza özel teklif
 
 ```
 Copyright (c) 2026 Veylora / Apex MU Web Solutions. All Rights Reserved.
-This project is proprietary commercial software. Unauthorized copying, 
-decompilation, distribution, or resale is strictly prohibited.
+This project is proprietary commercial software licensed per server IP/domain.
+Unauthorized copying, decompilation, distribution, or resale is strictly prohibited.
 ```
