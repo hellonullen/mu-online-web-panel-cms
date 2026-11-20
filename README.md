@@ -62,8 +62,13 @@ We offer two transparent commercial licensing models tailored to your project:
 | **⚖️ Class Balance & PvP Lab** | Dedicated laboratory page for all 7 legendary classes (DK, DW, Elf, MG, DL, Summoner, RF) with real damage formulas, defense calculations, attack speed thresholds, and matchup balance analysis. |
 | **📖 In-Game MuHelper & Guides** | Complete player guide covering MuHelper configuration (auto-buffs, skill rotations, item collection filters) and all in-game server commands (`/post`, `/add`, `/reset`, `/masterreset`, `/store`, `/offstore`, `/pack`). |
 | **🏆 Competitive Ranking Leagues** | Reset, Master Reset, Level, Guild, and PvP Killer leaderboards with automated weekly reward leagues, reset cap adaptations, and automated prize distribution. |
+| **🎡 Interactive Lucky Wheel & Daily Rewards** | HTML5 Canvas & physics-based lucky wheel (`wheel.php`) with 24h free spin cycle, live synchronized JS countdown timer, WCoin extra spins, and instant atomic in-game prize delivery (rare figurines, charms, jewels, Zen, and WCoins). |
+| **📡 Live Event Radar & Countdown Ticker** | Real-time countdowns for all major game events (Blood Castle, Devil Square, Chaos Castle, Invasions, Crywolf, Castle Siege) with dynamic state badges (Active, Starting Soon, Closed) integrated into header and subnav. |
+| **🛡️ VIP Armory & Inventory Privacy Shield** | Interactive character paperdoll & equipment inspector modal with exclusive VIP privacy protection (`HideInventory` toggle to conceal builds in rankings while maintaining public transparency for non-VIPs). |
+| **🧭 Quick Explorer Sub-Navigation Ribbon** | Responsive secondary horizontal pill ribbon organizing weekly rankings, server info, news, FAQ, rules, and lucky wheel without cluttering the primary header. |
 | **🛍️ Integrated Web Shop & Cash Shop** | Multi-currency (WCoins, CashPoints, Goblin Points, Zen), automated instant in-game delivery without client restart/re-login, stock controls, and VIP tier integrations. |
-| **👤 User Account Management** | Fixed full-screen modal authentication, account registration with strength meter, self-service character tools (Unstick character, Clear PK, Reset Stats), and secure password recovery. |
+| **👤 User Account Management & Starter Pack** | Fixed full-screen modal authentication, automated welcome gifts (3 Days Silver VIP + 10x Starter Jewels + 1.5M Zen + 200 GP), self-service character tools (Unstick, Clear PK, Reset Stats, Claim Starter Pack), and secure password recovery. |
+| **⚡ 99-100 PageSpeed & WebP Optimization** | 100% WebP image pipeline (40-60% size cut), self-hosted localized Google Fonts (Cinzel, Rajdhani, Inter) and FontAwesome assets, sub-300ms First Contentful Paint. |
 | **🛡️ Enterprise Security** | 100% Prepared PDO statements (SQL Injection immune), strict XSS filtering, rate-limiting (Anti-Brute-Force), CSRF tokens, and configurable password hashing (MD5, SHA256, BCrypt, Argon2/PBKDF2). |
 
 ---
@@ -101,6 +106,9 @@ When purchasing the Lifetime license, **you do not need to deal with complex ins
 
 #### 🗡️ Searchable Monster Drop & Spot Engine
 [![Drops Preview](docs/assets/drops_preview.png)](https://veyloramu.com/drops.php)
+
+#### 🎡 Interactive Lucky Wheel & Daily Rewards Engine
+[![Lucky Wheel Preview](docs/assets/wheel_preview.png)](https://veyloramu.com/wheel.php)
 
 #### 🏆 Player & Guild Ranking Hall of Fame
 [![Rankings Preview](docs/assets/rankings_preview.png)](https://veyloramu.com/rankings.php)
@@ -248,6 +256,35 @@ Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma
 9. **Üst Düzey Güvenlik Standartları:**
    - %100 Prepared PDO sorguları (SQL Injection tamamen imkansız).
    - XSS sanitizasyonu, CSRF token koruması, Brute-force ve Rate-limiting kalkanı.
+
+10. **İnteraktif Şans Çarkıfelek & Ödül Motoru (`wheel.php`):**
+    - HTML5 Canvas ve akıcı fizik motoruyla çalışan ses efektli interaktif çarkıfelek.
+    - 24 saatlik ücretsiz çevirme döngüsü ve hem kullanıcı panelinde hem de çark sayfasında senkronize canlı geri sayım sayacı (`HH:MM:SS`).
+    - İsteğe bağlı WCoin ile sınırsız ekstra çevirme hakkı.
+    - Zengin ödül matrisi: Nadir Tılsımlar (Golden Oak, Maple), Heykelcikler (Hawk, Goat), Mücevher Paketleri (Bless, Soul, Chaos, Life), Zen Keseleri ve WCoin/GP.
+    - Oyundan çıkış yapmayı gerektirmeyen atomik doğrudan envanter/kasa teslimatı.
+    - Canlı küresel kazananlar akışı (ticker) ve kişisel ödül geçmişi.
+
+11. **Canlı Etkinlik Radarı & Geri Sayım Ticker'ı (`components/event_ticker.php`):**
+    - Tüm büyük MU Online etkinlikleri için (Blood Castle, Devil Square, Chaos Castle, Altın Ejderha İstilası, White Wizard, Red Dragon, Crywolf, Castle Siege) milisaniyelik hassasiyetle geri sayım motoru.
+    - Dinamik durum rozetleri ("Şu Anda Aktif", "X Dakika Sonra Başlıyor", "Kapandı").
+    - Üst çubukta ve alt keşif şeridinde tüm sayfalarda kesintisiz görünürlük.
+
+12. **VIP Armory & Çanta Gizlilik Kalkanı (`components/armory_modal.php`):**
+    - Sıralama listesinden tek tıkla açılan interaktif karakter teçhizat ve çanta inceleme penceresi (kağıt bebek / paperdoll görünümü).
+    - Özel VIP Gizlilik ayrıcalığı: VIP oyuncular panelden tek tıkla envanterlerini sıralamada rakiplerine karşı gizleyebilir (`HideInventory`); VIP olmayan oyuncuların çantaları ise sunucu şeffaflığı gereği herkese açık listelenir.
+
+13. **Hızlı Keşif Alt Menü Şeridi (`components/subnav.php`):**
+    - Haftalık krallar ligi, sunucu özellikleri, duyurular, S.S.S., kurallar, hata bildirim ve şans çarkı sayfalarını ana gezinme menüsünü boğmadan organize eden mobil uyumlu yatay şerit.
+
+14. **%99-100 PageSpeed & WebP Varlık Mimarisi:**
+    - Tüm görsel varlıkların yeni nesil WebP formatına dönüştürülmesiyle %40-60 bant genişliği tasarrufu.
+    - Sunucuda barındırılan yerel Google Fontları (Cinzel, Rajdhani, Inter) ve FontAwesome ikon kütüphanesiyle sıfır dış CDN bağımlılığı ve 300ms altı First Contentful Paint.
+
+15. **Otomatik Yeni Oyuncu Başlangıç Paketi & Oyuncu Paneli Araçları:**
+    - Kayıt olan her hesaba anında: 3 Günlük Silver VIP (%25 Exp Bonusu), Depo kasasında 10x Başlangıç Mücevheri (3 Bless, 3 Soul, 3 Chaos, 1 Life), 1.5M Vault Zen ve 200 Goblin Points.
+    - Karakter oluşturulduğunda kullanıcı panelinden tek tıkla +250k Zen cep harçlığı ve +50 WCoin desteği.
+    - Panel üzerinden Web Reset, Stat Sıfırlama, PK Temizleme ve Sıkışan Karakteri Şehre Işınlama self-servis araçları.
 
 ---
 
