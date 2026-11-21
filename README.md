@@ -8,13 +8,14 @@
 ![Compatibility](https://img.shields.io/badge/Emulators-OpenMU%20|%20MuEmu%20|%20Louis%20|%20IGCN-darkred?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Domain%20%26%20IP%20Locked-gold?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Deployment-Turnkey%20Ready-brightgreen?style=for-the-badge)
+[![Developer Portfolio](https://img.shields.io/badge/Developer-kadircanuredi.com.tr-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kadircanuredi.com.tr)
 
 <br/>
 
 **A premium, enterprise-grade, mobile-first MU Online Web Panel and Content Management System built for high-traffic servers.**  
 *Includes a full turnkey installation, database migration, and emulator integration service for any MU Online server files.*
 
-[🌐 Live Real Server Demo (Canlı Gerçek Demo)](https://veyloramu.com) • [💳 Pricing & Licensing (Fiyatlandırma)](#-pricing--licensing-plans-fiyatland%C4%B1rma) • [❓ FAQ (Soru - Cevap)](#-frequently-asked-questions-faq) • [📧 Purchase / Contact (İletişim)](#-commercial-inquiries--contact-ileti%C5%9Fim)
+[🌐 Live Real Server Demo (Canlı Gerçek Demo)](https://veyloramu.com) • [🏛️ Developer Portfolio](https://kadircanuredi.com.tr) • [💳 Pricing & Licensing (Fiyatlandırma)](#-pricing--licensing-plans-fiyatland%C4%B1rma) • [❓ FAQ (Soru - Cevap)](#-frequently-asked-questions-faq) • [📧 Purchase / Contact (İletişim)](#-commercial-inquiries--contact-ileti%C5%9Fim)
 
 <br/>
 
@@ -366,8 +367,9 @@ Lisans, anlaşılan <b>Domain Adresi ve Sunucu IP'sine</b> kilitlidir. IP veya d
 
 Paneli satın almak, demo detaylarını görüşmek veya sunucunuza özel teklif almak için bize e-posta yoluyla ulaşabilirsiniz:
 
-- 📧 **Official Email:** [hellonullen@gmail.com](mailto:hellonullen@gmail.com)
+- 🌐 **Developer & Engineering Portfolio:** [https://kadircanuredi.com.tr](https://kadircanuredi.com.tr)
 - 🌐 **Live Server Demo:** [https://veyloramu.com](https://veyloramu.com)
+- 📧 **Official Email:** [contact@kadircanuredi.com.tr](mailto:contact@kadircanuredi.com.tr) / [hellonullen@gmail.com](mailto:hellonullen@gmail.com)
 - 💬 **Discord / Telegram:** *Yakında eklenecektir (talep üzerine e-posta ile iletilir)*
 
 ---
