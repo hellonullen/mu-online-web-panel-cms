@@ -275,8 +275,9 @@ Bu proje; eski, hantal ve güvenlik açıklarıyla dolu 2000'li yıllardan kalma
     - Sıralama listesinden tek tıkla açılan interaktif karakter teçhizat ve çanta inceleme penceresi (kağıt bebek / paperdoll görünümü).
     - Özel VIP Gizlilik ayrıcalığı: VIP oyuncular panelden tek tıkla envanterlerini sıralamada rakiplerine karşı gizleyebilir (`HideInventory`); VIP olmayan oyuncuların çantaları ise sunucu şeffaflığı gereği herkese açık listelenir.
 
-13. **Hızlı Keşif Alt Menü Şeridi (`components/subnav.php`):**
+13. **Hızlı Keşif Alt Menü Şeridi & Akıllı Yapışkan Konsol (`components/subnav.php` & `components/navbar.php`):**
     - Haftalık krallar ligi, sunucu özellikleri, duyurular, S.S.S., kurallar, hata bildirim ve şans çarkı sayfalarını ana gezinme menüsünü boğmadan organize eden mobil uyumlu yatay şerit.
+    - Sayfa aşağı kaydırıldığında (scroll) ana üst menü ile alt menüyü tek parça halinde ekranda sabitleyen (smart sticky container), layout-shift sıfırlayıcı dinamik spacer içeren modern cam (glassmorphism) konsol mimarisi.
 
 14. **%99-100 PageSpeed & WebP Varlık Mimarisi:**
     - Tüm görsel varlıkların yeni nesil WebP formatına dönüştürülmesiyle %40-60 bant genişliği tasarrufu.
